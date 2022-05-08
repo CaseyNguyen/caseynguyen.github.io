@@ -1,11 +1,13 @@
 h1{
-    font-family: Arial
+    font-family: Arial;
+    font-weight: bold;
+
 }
 
 h2{
-    font-family: Arial
+    font-family: Arial;
 }
 
 p{
-    font-family: Arial
+    font-family: Arial;
 }
