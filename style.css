@@ -1,25 +1,40 @@
+img{
+    text-align: center;
+}
+
+/*h1: The title with my name in it.*/
 h1{
     font-family: Arial;
     font-weight: bold;
-    text-align:center
+    text-align: center
 }
 
+/* h2: Designate a new type of experience (work, education).*/
 h2{
     font-family: Arial;
-    text-align:center
+    text-align: center
 }
 
+/* h3: Designate a new experience.*/
 h3{
     font-family: Arial;
-    text-align:center
+    text-align: left
 }
 
+/* h4: Subtitles for new experiences.*/
+h4{
+    font-family: Arial;
+    font-style: italic;
+    text-align: left
+}
+
+/*p: General text.*/
 p{
     font-family: Arial;
-    text-align:center
+    text-align: left
 }
 
 i{
     font-family: Arial;
-    text-align:center
+    text-align: left;
 }
