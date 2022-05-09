@@ -1,5 +1,3 @@
-
-
 h1{
     font-family: Arial;
     font-weight: bold;
@@ -17,6 +15,11 @@ h3{
 }
 
 p{
+    font-family: Arial;
+    text-align:center
+}
+
+i{
     font-family: Arial;
     text-align:center
 }
