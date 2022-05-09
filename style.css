@@ -1,12 +1,15 @@
-.center {
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 40%;
 }
+
+
 
 /*h1: The title with my name in it.*/
 h1{
-    font-family: Arial;
+    font-family: Merriweather;
     font-weight: bold;
     text-align: center
 }
