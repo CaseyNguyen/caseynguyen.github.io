@@ -2,44 +2,41 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
 }
-
-
 
 /*h1: The title with my name in it.*/
 h1{
-    font-family: Merriweather;
+    font-family: "Merriweather";
     font-weight: bold;
     text-align: center
 }
 
 /* h2: Designate a new type of experience (work, education).*/
 h2{
-    font-family: Arial;
+    font-family: "Open Sans";
     text-align: center
 }
 
 /* h3: Designate a new experience.*/
 h3{
-    font-family: Arial;
+    font-family: "Open Sans";
     text-align: left
 }
 
 /* h4: Subtitles for new experiences.*/
 h4{
-    font-family: Arial;
+    font-family: "Open Sans";
     font-style: italic;
     text-align: left
 }
 
 /*p: General text.*/
 p{
-    font-family: Arial;
+    font-family: "Open Sans";
     text-align: left
 }
 
 i{
-    font-family: Arial;
+    font-family: "Open Sans";
     text-align: left;
 }
