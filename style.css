@@ -1,13 +1,22 @@
+
+
 h1{
     font-family: Arial;
     font-weight: bold;
-
+    text-align:center
 }
 
 h2{
     font-family: Arial;
+    text-align:center
+}
+
+h3{
+    font-family: Arial;
+    text-align:center
 }
 
 p{
     font-family: Arial;
+    text-align:center
 }
