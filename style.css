@@ -8,6 +8,20 @@ img {
     background-repeat: repeat-y;
 }
 
+.topBar{
+    background-color: black;
+    overflow: hidden;
+}
+
+.topBar a{
+    float: left;
+    color: green;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
 /*resumeName is for the name of the person on the resume, listed at the top.*/
 .resumeName{
     color: #000033;
