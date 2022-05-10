@@ -33,15 +33,14 @@ h4{
 
 /*p: General text.*/
 p{
-
     width: 8em;
     font-family: "Open Sans";
     text-align: left
 }
 
 .resumeIntro{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 40px;
+    margin-right: 40px;
     font-family: "Open Sans";
     font-style: italic;
 }
