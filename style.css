@@ -31,13 +31,7 @@ h4{
     text-align: left
 }
 
-/*p: General text.*/
-p{
-    width: 8em;
-    font-family: "Open Sans";
-    text-align: left
-}
-
+/*resumeIntro designates the introduction paragraph of my resume.*/
 .resumeIntro{
     margin: auto;
     width: 60%;
