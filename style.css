@@ -3,11 +3,12 @@ img {
     margin: auto;
 }
 
-/*h1: The title with my name in it.*/
-h1{
+/*resumeName is for the name of the person on the resume, listed at the top.*/
+.resumeName{
+    margin: auto;
+    width: 60%;
     font-family: "Merriweather";
-    font-weight: bold;
-    text-align: center
+    font-size: 24px;
 }
 
 /*resumeDescription is for the intro paragraph and follows experience titles.*/
