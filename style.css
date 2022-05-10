@@ -4,7 +4,7 @@ img {
 }
 
 .background{
-    background-image: url("background1.jpg");
+    background-color: white;
     background-repeat: repeat-y;
 }
 
@@ -37,9 +37,6 @@ img {
 
 /*resumeSection is used to create a new section in the resume (by type of experience).*/
 .resumeSection{
-    background-color: #e0f9ff;
-    border-color: #000033;
-    border-style: groove;
     color: #000033;
     margin: auto;
     width: 60%;
