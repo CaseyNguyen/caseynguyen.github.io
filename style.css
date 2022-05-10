@@ -22,7 +22,18 @@ img {
     font-size: 17px;
 }
 
-/*resumeName is for the name of the person on the resume, listed at the top.*/
+.topBar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.topBar a.active{
+    background-color: #04AA6D;
+    color:white;
+}
+
+/* -- Resume Page -- */
+/* resumeName is for the name of the person on the resume, listed at the top. */
 .resumeName{
     color: #000033;
     margin: auto;
@@ -32,14 +43,14 @@ img {
     text-align: center;
 }
 
-/*resumeDescription is for the intro paragraph and follows experience titles.*/
+/* resumeDescription is for the intro paragraph and follows experience titles. */
 .resumeDescription{
     color: #000033;
     font-family: "Open Sans";
     font-style: italic;
 }
 
-/*resumeHeader is for the title of the start of a new section.*/
+/* resumeHeader is for the title of the start of a new section. */
 .resumeHeader{
     margin: auto;
     width: 60%;
@@ -49,7 +60,7 @@ img {
     text-align: center;
 }
 
-/*resumeSection is used to create a new section in the resume (by type of experience).*/
+/* resumeSection is used to create a new section in the resume (by type of experience). */
 .resumeSection{
     color: #000033;
     margin: auto;
