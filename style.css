@@ -10,34 +10,28 @@ h1{
     text-align: center
 }
 
-/* h3: Designate a new experience.*/
-h3{
-    font-family: "Open Sans";
-    text-align: left
-}
-
-/* h4: Subtitles for new experiences.*/
-h4{
-    font-family: "Open Sans";
-    font-style: italic;
-    text-align: left
-}
-
-/*resumeIntro designates the introduction paragraph of my resume.*/
-.resumeIntro{
+/*resumeDescription is for the intro paragraph and follows experience titles.*/
+.resumeDescription{
     margin: auto;
     width: 60%;
     font-family: "Open Sans";
     font-style: italic;
 }
 
+/*resumeHeader is for the title of the start of a new section.*/
 .resumeHeader{
+    margin: auto;
+    width: 60%;
+    font-family: "Open Sans";
+    font-size: 11px;
     color: #4169e1;
     text-align: center;
 }
 
+/*resumeSection is used to create a new section in the resume (by type of experience).*/
 .resumeSection{
     margin: auto;
     width: 60%;
     font-family: "Open Sans";
 }
+
