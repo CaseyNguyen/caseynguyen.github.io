@@ -4,18 +4,18 @@ img {
 }
 
 .background{
-    background-color: white;
+    background-color: #FFEAD0;
     background-repeat: repeat-y;
 }
 
 .topBar{
-    background-color: black;
+    background-color: #2E4057;
     overflow: hidden;
 }
 
 .topBar a{
     float: left;
-    color: green;
+    color: #083D77;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -28,7 +28,7 @@ img {
 }
 
 .topBar a.active{
-    background-color: #04AA6D;
+    background-color: #7EA2AA;
     color:white;
 }
 
