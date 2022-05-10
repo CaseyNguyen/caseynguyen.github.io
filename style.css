@@ -3,6 +3,11 @@ img {
     margin: auto;
 }
 
+.background{
+    background-image: url("background1.jpg");
+    background-repeat: repeat-y;
+}
+
 /*resumeName is for the name of the person on the resume, listed at the top.*/
 .resumeName{
     color: #000033;
