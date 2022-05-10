@@ -13,8 +13,6 @@ img {
 
 /*resumeDescription is for the intro paragraph and follows experience titles.*/
 .resumeDescription{
-    margin: auto;
-    width: 60%;
     font-family: "Open Sans";
     font-style: italic;
 }
