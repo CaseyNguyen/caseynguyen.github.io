@@ -27,13 +27,16 @@
 }
 
 /* -- Resume Page -- */
-/* resumeName is for the name of the person on the resume, listed at the top. */
+/* resumeMPic is for the main picture holding my face.*/
 .resumeMPic{
     display: block;
     margin: auto;
 }
 
+/* resumeName is for the name of the person on the resume, listed at the top. */
 .resumeName{
+    block-size: 54px;
+    border-radius: 50%; 
     color: #000033;
     margin: auto;
     width: 60%;
