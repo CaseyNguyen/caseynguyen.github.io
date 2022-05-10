@@ -5,6 +5,7 @@ img {
 
 /*resumeName is for the name of the person on the resume, listed at the top.*/
 .resumeName{
+    color: #000033;
     margin: auto;
     width: 60%;
     font-family: "Merriweather";
@@ -14,6 +15,7 @@ img {
 
 /*resumeDescription is for the intro paragraph and follows experience titles.*/
 .resumeDescription{
+    color: #000033;
     font-family: "Open Sans";
     font-style: italic;
 }
@@ -30,6 +32,10 @@ img {
 
 /*resumeSection is used to create a new section in the resume (by type of experience).*/
 .resumeSection{
+    background-color: #e0f9ff;
+    border-color: #000033;
+    border-style: groove;
+    color: #000033;
     margin: auto;
     width: 60%;
     font-family: "Open Sans";
