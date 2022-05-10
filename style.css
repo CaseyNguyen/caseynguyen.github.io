@@ -39,18 +39,8 @@ p{
 }
 
 .resumeIntro{
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: auto;
+    width: 60%;
     font-family: "Open Sans";
     font-style: italic;
-}
-
-.resumeSection{
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-.resumeExperience{
-    margin-left: 20%;
-    margin-right: 20%;
 }
