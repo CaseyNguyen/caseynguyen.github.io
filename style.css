@@ -14,6 +14,7 @@ h1{
 /* h2: Designate a new type of experience (work, education).*/
 h2{
     font-family: "Open Sans";
+    font-size: small;
     text-align: center
 }
 
@@ -32,6 +33,9 @@ h4{
 
 /*p: General text.*/
 p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
     font-family: "Open Sans";
     text-align: left
 }
