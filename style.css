@@ -27,6 +27,15 @@
     color:white;
 }
 
+.title{
+    color: #000033;
+    font-family: "Verdana";
+    font-size: 32px;
+    margin: 15px 90px;
+    text-align: middle;
+    width: 90%;
+}
+
 /* -- Bottom Info -- */
 .bottomInfo{
     background-color: #083d77;
@@ -42,8 +51,8 @@
     color: #000033;
     font-family: "Verdana";
     font-size: 32px;
-    margin: auto;
-    text-align: left;
+    margin: 15px 90px;
+    text-align: middle;
     width: 90%;
 }
 
