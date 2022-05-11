@@ -57,11 +57,11 @@
 
 /* resumeName is for the name of the person on the resume, listed at the top. */
 .resumeName{
-    block-size: 60px;
     color: #000033;
     margin: auto;
     font-family: "Verdana";
     font-size: 42px;
+    padding: 10px;
     text-align: center;
     vertical-align: middle;
     width: 60%;
