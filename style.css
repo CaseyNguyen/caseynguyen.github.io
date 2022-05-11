@@ -132,9 +132,10 @@
     font-size: 16px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
+    width: 60%;
 }
 
 /* -- Custom Animations --*/
