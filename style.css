@@ -27,6 +27,16 @@
     color:white;
 }
 
+/* -- Home Page -- */
+.homeIntro{
+    color: #000033;
+    font-family: "Verdana";
+    font-size: 32px;
+    margin: auto;
+    text-align: left;
+    width: 75%;
+}
+
 /* -- Resume Page -- */
 /* resumeMPic is for the main picture holding my face.*/
 .resumeMPic{
@@ -70,4 +80,3 @@
     width: 60%;
     font-family: "Verdana";
 }
-
