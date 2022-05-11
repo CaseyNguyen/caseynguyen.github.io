@@ -59,9 +59,10 @@
 .resumeName{
     color: #000033;
     margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-family: "Verdana";
     font-size: 42px;
-    padding: 10px;
     text-align: center;
     vertical-align: middle;
     width: 60%;
