@@ -62,14 +62,16 @@
 /* resumeMPic is for the main picture holding my face.*/
 .resumeMPic{
     align-self: flex-end;
+    border-radius: 50%; 
+    /*
     animation-name: naturalBounce;
     animation-timing-function: ease;
     animation-duration: 2s;
     animation-iteration-count: 1;
-    border-radius: 50%; 
+    transform-origin: bottom;
+    */    
     display: block;
     margin: auto;
-    transform-origin: bottom;
 }
 
 /* resumeName is for the name of the person on the resume, listed at the top. */
