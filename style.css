@@ -131,7 +131,10 @@
     width: 60%;
     font-family: "Verdana";
     font-size: 14px;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
