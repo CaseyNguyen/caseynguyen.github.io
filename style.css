@@ -19,12 +19,17 @@
 
 .topBar a:hover{
     background-color: #92ad94;
-    color: black;
+    color: #000033;
 }
 
 .topBar a.active{
     background-color: #7EA2AA;
     color:white;
+}
+
+.topBar a.active:hover{
+    background-color: #7EA2AA;
+    color:#000033;
 }
 
 .title{
