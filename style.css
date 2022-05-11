@@ -1,3 +1,4 @@
+/* ---- Global Styling ----*/
 .background{
     background-color: #F5FBEF;
 }
@@ -36,7 +37,7 @@
     width: 90%;
 }
 
-/* -- Bottom Info -- */
+/* Consititutes the copyright details on the bottom*/
 .bottomInfo{
     background-color: #083d77;
     color: #DAE1DA;
@@ -46,7 +47,7 @@
     text-align: center;
 }
 
-/* -- Home Page -- */
+/* ---- Home Page ---- */
 .homeIntro{
     color: #000033;
     font-family: "Verdana";
@@ -56,7 +57,7 @@
     width: 90%;
 }
 
-/* -- Resume Page -- */
+/* ---- Resume Page ---- */
 /* resumeMPic is for the main picture holding my face.*/
 .resumeMPic{
     align-self: flex-end;
@@ -106,7 +107,7 @@
     font-family: "Verdana";
 }
 
-/* -- Custom Animations --*/
+/* ---- Custom Animations ----*/
 @keyframes naturalBounce{
     0%   { transform: scale(1,1)      translateY(0); }
     10%  { transform: scale(1.1,.9)   translateY(0); }
