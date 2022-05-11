@@ -8,13 +8,13 @@
 }
 
 .topBar a{
+    color: white;
     float: left;
     font-family: "Verdana";
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
     font-size: 17px;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .topBar a:hover{
@@ -25,6 +25,16 @@
 .topBar a.active{
     background-color: #7EA2AA;
     color:white;
+}
+
+/* -- Bottom Info -- */
+.bottomInfo{
+    background-color: #083d77;
+    color: #DAE1DA;
+    font-family: "Verdana";
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
 }
 
 /* -- Home Page -- */
