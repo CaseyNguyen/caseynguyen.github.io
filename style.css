@@ -43,7 +43,11 @@
     font-family: "Verdana";
     font-size: 14px;
     padding: 10px;
+    position:absolute;
+    right:0px;
+    left:0px;
     text-align: center;
+    
 }
 
 /* -- Home Page -- */
