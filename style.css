@@ -99,12 +99,21 @@
     text-align: center;
 }
 
-/* resumeSection is used to create a new section in the resume (by type of experience). */
-.resumeSection{
+/* Section is used to create a new section in the resume (by type of experience). */
+.section{
     color: #000033;
     margin: auto;
     width: 60%;
     font-family: "Verdana";
+}
+
+.section header{
+    margin: auto;
+    width: 60%;
+    font-family: "Verdana";
+    font-size: 11px;
+    color: #4169e1;
+    text-align: center;    
 }
 
 /* ---- Custom Animations ----*/
