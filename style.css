@@ -34,7 +34,7 @@
     font-size: 32px;
     margin: auto;
     text-align: left;
-    width: 75%;
+    width: 90%;
 }
 
 /* -- Resume Page -- */
@@ -47,13 +47,14 @@
 
 /* resumeName is for the name of the person on the resume, listed at the top. */
 .resumeName{
-    block-size: 54px;
+    block-size: 60px;
     color: #000033;
     margin: auto;
-    width: 60%;
     font-family: "Verdana";
     font-size: 42px;
     text-align: center;
+    vertical-align: middle;
+    width: 60%;
 }
 
 /* resumeDescription is for the intro paragraph and follows experience titles. */
