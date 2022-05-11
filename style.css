@@ -1,4 +1,3 @@
-/* ---- Global Styling ----*/
 .background{
     background-color: #F5FBEF;
 }
@@ -37,7 +36,7 @@
     width: 90%;
 }
 
-/* Consititutes the copyright details on the bottom of each page. */
+/* -- Bottom Info -- */
 .bottomInfo{
     background-color: #083d77;
     color: #DAE1DA;
@@ -47,7 +46,7 @@
     text-align: center;
 }
 
-/* ---- Home Page ---- */
+/* -- Home Page -- */
 .homeIntro{
     color: #000033;
     font-family: "Verdana";
@@ -57,7 +56,7 @@
     width: 90%;
 }
 
-/* ---- Resume Page ---- */
+/* -- Resume Page -- */
 /* resumeMPic is for the main picture holding my face.*/
 .resumeMPic{
     align-self: flex-end;
@@ -99,27 +98,21 @@
     text-align: center;
 }
 
-/* Section is used to create a new section in the resume (by type of experience). */
-.section{
+/* resumeSection is used to create a new section in the resume (by type of experience). */
+.resumeSection{
     color: #000033;
     margin: auto;
     width: 60%;
     font-family: "Verdana";
 }
 
-.section header{
-    font-size: 11px;
-    color: #4169e1;
-    text-align: center;    
-}
-
-/* ---- Custom Animations ----*/
+/* -- Custom Animations --*/
 @keyframes naturalBounce{
     0%   { transform: scale(1,1)      translateY(0); }
     10%  { transform: scale(1.1,.9)   translateY(0); }
-    30%  { transform: scale(.9,1.1)   translateY(-25px); }
+    30%  { transform: scale(.9,1.1)   translateY(-100px); }
     50%  { transform: scale(1.05,.95) translateY(0); }
-    57%  { transform: scale(1,1)      translateY(-3px); }
+    57%  { transform: scale(1,1)      translateY(-7px); }
     64%  { transform: scale(1,1)      translateY(0); }
     100% { transform: scale(1,1)      translateY(0); }
 }
