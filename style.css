@@ -9,7 +9,7 @@
 
 .topBar a{
     float: left;
-    color: #083D77;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -17,7 +17,7 @@
 }
 
 .topBar a:hover{
-    background-color: #ddd;
+    background-color: #f5fbef;
     color: black;
 }
 
