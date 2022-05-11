@@ -59,18 +59,14 @@
 /* -- Resume Page -- */
 /* resumeMPic is for the main picture holding my face.*/
 .resumeMPic{
-    border-radius: 50%; 
-    display: block;
-    margin: auto;
-}
-
-.resumeMPic:hover{
     align-self: flex-end;
     animation-name: naturalBounce;
     animation-timing-function: ease;
     animation-duration: 2s;
     animation-iteration-count: 1;
-    margin: 0 auto 0 auto;
+    border-radius: 50%; 
+    display: block;
+    margin: auto;
     transform-origin: bottom;
 }
 
