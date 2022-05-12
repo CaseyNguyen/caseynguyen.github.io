@@ -60,6 +60,10 @@
     color: #000033;
     font-family: "Verdana";
     font-size: 24px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: middle;
 }
 
@@ -137,7 +141,7 @@
     font-size: 16px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 4px;
+    margin-top: 6px;
     margin-bottom: 14px;
     text-align: center;
     width: 60%;
