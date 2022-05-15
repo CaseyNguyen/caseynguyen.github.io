@@ -70,9 +70,6 @@
 /* -- Projects Page -- */
 /* projectPic is for a project image. */
 .projectPic{
-    align-self: flex-end;
-    border-radius: 95%; 
-    display: block;
     margin: auto;
     float: left;
     width:"300";
