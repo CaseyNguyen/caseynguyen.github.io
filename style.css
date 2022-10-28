@@ -1,168 +1,25 @@
-.background{
-    background-color: #F5FBEF;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.topBar{
-    background-color: #2E4057;
-    overflow: hidden;
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7), url(images/me.png));
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
-.topBar a{
-    color: white;
-    float: left;
-    font-family: "Verdana";
-    font-size: 17px;
-    padding: 14px 16px;
-    text-align: center;
-    text-decoration: none;
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.topBar a:hover{
-    background-color: #92ad94;
-    color: #000033;
-}
-
-.topBar a.active{
-    background-color: #7EA2AA;
-    color:white;
-}
-
-.topBar a.active:hover{
-    background-color: #7EA2AA;
-    color:#000033;
-}
-
-.title{
-    color: #000033;
-    font-family: "Verdana";
-    font-size: 32px;
-    margin: 15px 90px;
-    text-align: middle;
-    width: 90%;
-}
-
-/* -- Bottom Info -- */
-.bottomInfo{
-    background-color: #083d77;
-    color: #DAE1DA;
-    font-family: "Verdana";
-    font-size: 14px;
-    padding: 10px;
-    position:absolute;
-    right:0px;
-    left:0px;
-    text-align: center;
+nav img{
+    width: 150px;
     
-}
-
-/* -- Home Page -- */
-.homeIntro{
-    color: #000033;
-    font-family: "Verdana";
-    font-size: 24px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: middle;
-}
-
-/* -- Projects Page -- */
-/* projectPic is for a project image. */
-.projectPic{
-    margin: auto;
-    float: left;
-    width:"300";
-    height: "200";
-}
-
-/* -- Resume Page -- */
-/* resumeMPic is for the main picture holding my face.*/
-.resumeMPic{
-    align-self: flex-end;
-    border-radius: 50%; 
-    /*
-    animation-name: naturalBounce;
-    animation-timing-function: ease;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    transform-origin: bottom;
-    */    
-    display: block;
-    margin: auto;
-}
-
-/* resumeName is for the name of the person on the resume, listed at the top. */
-.resumeName{
-    color: #000033;
-    margin-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    font-family: "Verdana";
-    font-size: 42px;
-    text-align: center;
-    width: 60%;
-}
-
-.uname{
-    color: #000033;
-    font-family: "Verdana";
-    font-size: 14px;
-    margin-top: auto;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 20px;
-    text-align: center;
-    width: 60%;
-}
-
-/* resumeDescription is for the intro paragraph and follows experience titles. */
-.resumeDescription{
-    color: #000033;
-    font-family: "Verdana";
-    font-style: italic;
-}
-
-/* resumeHeader is for the title of the start of a new section. */
-.resumeHeader{
-    margin: auto;
-    width: 60%;
-    font-family: "Verdana";
-    font-size: 11px;
-    color: #4169e1;
-    text-align: center;
-}
-
-/* resumeSection is used to create a new section in the resume (by type of experience). */
-.resumeSection{
-    color: #000033;
-    margin: auto;
-    width: 60%;
-    font-family: "Verdana";
-}
-
-/* resumeLanguages */
-.resumeLanguages{
-    color: #000033;
-    width: 60%;
-    font-family: "Verdana";
-    font-size: 16px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 6px;
-    margin-bottom: 14px;
-    text-align: center;
-    width: 60%;
-}
-
-/* -- Custom Animations --*/
-@keyframes naturalBounce{
-    0%   { transform: scale(1,1)      translateY(0); }
-    10%  { transform: scale(1.1,.9)   translateY(0); }
-    30%  { transform: scale(.9,1.1)   translateY(-100px); }
-    50%  { transform: scale(1.05,.95) translateY(0); }
-    57%  { transform: scale(1,1)      translateY(-7px); }
-    64%  { transform: scale(1,1)      translateY(0); }
-    100% { transform: scale(1,1)      translateY(0); }
 }
