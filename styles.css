@@ -1,0 +1,173 @@
+body{
+    font-family: 'Gowun Dodum', 'Times New Roman';
+    font-weight: 300;
+    margin: 0;
+}
+
+h1{
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sectionHead{
+    font-size: 14px;
+}
+
+h2{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h3{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.topnav{
+    position: sticky;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav img{
+    width: 60px;
+    height: 60px;
+    transition: transform 0.1s, filter 0.2s;
+}
+
+.topnav img:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(10px 2px 4px #D9D9D9);
+}
+
+.guideRow{
+    animation: fadeIn 2s;
+    border-spacing: 100px;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+}
+
+.guide{
+    background-color: #D9D9D9;
+    filter: drop-shadow(0px 4px 4px black);
+    display: table-cell;
+    padding: 10px;
+    padding-bottom: 150px;
+    width: 33.3%;
+}
+
+.guide img{
+    padding-top: 50px;
+    width: 150px;
+    height: auto;
+}
+
+.smallDiv{
+    display: block;
+    background-color: #D9D9D9;
+    width: 500px;
+    height: 1px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.bigDiv{
+    display: block;
+    background-color: #D9D9D9;
+    width: 750px;
+    height: 1px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+img.xpIcon{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+img.xpBlock{
+    display: block;
+    width: 850px;
+    height: 480px;
+    margin: auto;
+    transition: transform 0.1s, filter 0.3s;
+}
+
+img.xpBlock:hover{
+    transform: scale(1.05);
+    filter: drop-shadow(8px 6px 4px #D9D9D9);
+}
+
+img.timePic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+img.main{
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.contact{
+    background-color: #D9D9D9;
+    border-radius: 1%;
+    width: 30%;
+    padding: 20px;
+    padding-top: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact p{
+    font-size: 20px;
+}
+
+form{
+    margin: auto;
+}
+
+input[type=text]{
+    padding: 5px 200px 5px 5px;
+}
+
+#message{
+    padding: 5px 200px 200px 5px;
+}
+
+footer{
+    background-color: black;
+    padding-top: 40px;
+	padding-bottom: 40px;
+    color: white;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
