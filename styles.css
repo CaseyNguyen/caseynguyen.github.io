@@ -1,99 +1,249 @@
-/* General */
-html {
-  scroll-behavior: smooth;
+html{
+    scroll-behavior: smooth;
 }
 
 body{
-	background-image: url("images/seattle.jpg");
-	font-family: "Bitter", "Montserrat", "Times";
-	margin: 0;
-	padding: 0;
+    font-family: 'Gowun Dodum', 'Times New Roman';
+    font-weight: 300;
+    margin: 0;
 }
-/* End General */
-
-/* Navigation Bar */
-ul{
-	list-style-type: none;
-	margin: 0;
-	padding-top: 25px;
-	padding-left: 20%;
-	padding-right: 20%;
-	overflow: hidden;
-}
-
-li{
-	font-size: 20px;
-	font-weight: 950;
-	float: right;
-	display: inline;
-}
-
-li a{
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-
-li a:hover{
-	color: #e6e49f;
-}
-/* End Navigation Bar */
-
 
 h1{
-	color: white;
-	font-size: 72px;
-	text-align: center;
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#title{
+    animation: fadeIn 2s;
+}
+
+.sectionHead{
+    font-size: 14px;
 }
 
 h2{
-	color: black;
-	font-size: 40px;
-	text-align: center;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h3{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+a{
+    color: black;
+}
+
+.topnav{
+    position: sticky;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav img{
+    width: 60px;
+    height: 60px;
+    transition: transform 0.1s, filter 0.2s;
+}
+
+.topnav img:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(10px 2px 4px #D9D9D9);
+}
+
+.guideRow{
+    white-space: normal;
+    display: block;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    animation: fadeInDelay 2.5s;
+}
+
+.guideCol{
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    white-space: normal;
+    margin: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: inline-block;
+    max-width: 20%;
+    height: auto;
+    padding: 40px;
+    padding-top: 20px;
+    transition: transform 0.4s, filter 1s;
+}
+
+.guideCol:hover{
+    transform: scale(1.25);
+    filter: drop-shadow(8px 6px 4px #D9D9D9);
+}
+
+.guideCol a:visited{
+    text-decoration: none;
+}
+
+.guideCol img{
+    padding-top: 35px;
+    max-width: 50%;
+    height: auto;
+}
+
+.guideCol h3{
+    padding-top: 25px;
+}
+
+.smallDiv{
+    display: block;
+    background-color: #D9D9D9;
+    width: 500px;
+    height: 1px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.bigDiv{
+    display: block;
+    background-color: #D9D9D9;
+    width: 750px;
+    height: 1px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+img.xpIcon{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+img.xpBlock{
+    display: block;
+    width: 850px;
+    height: 480px;
+    margin: auto;
+    transition: transform 0.1s, filter 0.3s;
+}
+
+img.xpBlock:hover{
+    transform: scale(1.05);
+    filter: drop-shadow(8px 6px 4px #D9D9D9);
+}
+
+img.timePic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.about{
+    margin: auto;
+    width: 50%;
+}
+
+img.main{
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding-top: 10px;
+    margin: auto;
+}
+
+img.college{
+    display: inline-block;
+    height: 20px;
+    width: auto;
+}
+
+.aboutSpecific{
+    width: 70%;
+    margin: auto;
+}
+
+img.tools{
+    filter: grayscale(100%);
+    transition: transform 0.2s, filter 0.2s;
+    display: inline-block;
+    text-align: center;
+    height: 60px;
+    width: auto;
+    padding: 10px;
+}
+
+img.tools:hover{
+    transform: scale(1.25);
+    filter: grayscale(0%);
+}
+
+.contact{
+    background-color: #D9D9D9;
+    border-radius: 1%;
+    width: 40%;
+    padding: 20px;
+    padding-top: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact p{
+    font-size: 20px;
+}
+
+form{
+    margin: auto;
+}
+
+input[type=text], input[type=submit]{
+    padding: 5px;
+    width: 70%
+}
+
+#message{
+    padding-bottom: 200px;
+}
+
+.blankSpace{
+    padding-top: 50px;
+    background-color: white;
 }
 
 footer{
-	padding-top: 40px;
+    background-color: black;
+    padding-top: 40px;
 	padding-bottom: 40px;
-	background-color: black;
-	color: white;
-	text-align: center;
+    color: white;
+    text-align: center;
 }
 
-/* Classes */
-.coverPhoto{
-	display: block;
-  	margin-left: auto;
- 	margin-right: auto;
-  	height = 400px;
-	width = 400px;
-	border-radius: 50%;
-	border: 5px solid black;
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
-.gap{
-	padding-top: 145px;
-}
-
-.shadeGap{
-	padding-bottom: 40px;
-	color: black;
-}
-
-.subtext{
-	font-size: 36px;
-}
-
-.contentSection{
-	display: block;
-	font-size: 24px;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	padding-left: 30%;
-	padding-right: 30%;
-	text-align: center;
-	left: 0;
-	right: 0;
+@keyframes fadeInDelay {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
 }
