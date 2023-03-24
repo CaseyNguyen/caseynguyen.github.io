@@ -12,41 +12,86 @@ Casey Nguyen
 		<title>Casey Nguyen</title>
 		<link rel="stylesheet"
 			href="https://fonts.googleapis.com/css?family=Gowun+Dodum">
-		<link rel="icon" type="image/x-icon" href="images/c++.png">
+		<link rel="icon" type="image/x-icon" href="images/JapanBall.ico">
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
 		<!--Navigation Bar-->
 		<div class="topnav">
-			<a href="https://github.com/CaseyNguyen"><img src="images/ResumeIcon.png"></a>
+			<a href="files/Casey_J_Nguyen.pdf"><img src="images/ResumeIcon.png"></a>
 			<a href="https://www.youtube.com/channel/UC7ddEV2FWhmZ73SnisEKagQ"><img src="images/YouTubeIcon.png"></a>
 			<a href="https://www.instagram.com/caseynguyennnn/"><img src="images/InstagramIcon.png"></a>
+			<a href="linkedin.com/in/caseyjnguyen"><img src="images/LinkedInIcon.png"></a>
 			<a href="https://github.com/CaseyNguyen"><img src="images/GithubIcon.png"></a>
 		</div>
 		<!--Landing Page-->
-		<h1>Hi! I'm Casey.<br>How can I help you today?</h1>
-
+		<h1 id="title">Hi! I'm Casey.<br>How can I help you today?</h1>
 		<div class="guideRow">
-			<div class="guide">
-				<h2>Portfolio</h2>
-				<img src="images/PortfolioIcon.png">
-			</div>
-			<div class="guide">
-				<h2>About Me</h2>
-				<img src="images/TimelineIcon.png">
-			</div>
-			<div class="guide">
-				<h2>Contact Me</h2>
-				<img src="images/MailIcon.png">
-			</div>
+			<a href="#biography">
+				<div class="guideCol">
+					<h2>Biography</h2>
+					<img src="images/AboutMeIcon.png">
+					<h3>Get the details on my skills and interests.</h3>
+				</div>
+			</a>
+			<a href="#portfolio">
+				<div class="guideCol">
+					<h2>Portfolio</h2>
+					<img src="images/PortfolioIcon.png">
+					<h3>View experiences that I've been involved with.</h3>
+				</div>
+			</a>
+			<a href="#contact">
+				<div class="guideCol">
+					<h2>Contact</h2>
+					<img src="images/MailIcon.png">
+					<h3>Reach out to me for any hiring inquiries!</h3>
+				</div>
+			</a>
+
 		</div>
-		<div class="bigDiv"></div>
+		<div class="bigDiv" id="biography"></div>
+
+		<!--About Me-->
+		<h1 class="sectionHead">BIOGRAPHY</h1>
+		<div class="about">
+			<img src="images/Self.jpg" class="main">
+			<p><i>"Hello there!" - Obi-Wan Kenobi</i></p>
+			<h3>Casey Nguyen is a software engineer based in <img src="images/HawaiiLogo.png" class="college">awaii and 
+				<img src="images/WashingtonLogo.png" class="college">ashington.</h3>
+
+
+			<div class="aboutSpecific">
+				<p>I am a Computer Science major from Seattle University. I'm currently
+					pursuing an entry-level software engineering position.<br><br>
+					In my free time, I create content for my YouTube channel, Mudklips. I enjoy cooking food
+					and traveling the world.
+				</p>
+			</div>
+
+			<h2 class="sectionHead">Languages<br><br>
+				<img src="images/languages/Cplus.png" class="tools">
+				<img src="images/languages/Csharp.png" class="tools">
+				<img src="images/languages/Python.png" class="tools">
+				<img src="images/languages/SQL.png" class="tools">
+				<img src="images/languages/Unity.png" class="tools">
+				<img src="images/languages/R.png" class="tools">
+			</h2>
+			<h2 class="sectionHead">Frameworks + Tools<br><br>
+				<img src="images/languages/Figma.png" class="tools">
+				<img src="images/languages/NET.png" class="tools">
+				<img src="images/languages/Adobe.png" class="tools">
+			</h2>
+			<h2 class="sectionHead">Honors</h2>
+			<p style="font-size: 22px;">Dean's List<br>Trustee Scholarship<br>IB Diploma Programme</p>
+		</div>
+		<div class="bigDiv" id="portfolio"></div>
 		<!--Portfolio-->
-		<h1 class="sectionHead" id="portfolio">PORTFOLIO</h1>
+		<h1 class="sectionHead" >PORTFOLIO</h1>
 		<h2>Ellebit <img src="images/EllebitLogo.jpg" class="xpIcon"></h2>
 		<h3>Reserving private dining in five simple steps.</h3>
 		<a href="https://ellebit.com/">
-			<img src="images/EllebitPlaceholder.png" class="xpBlock" style="filter: blur(4px);">
+			<img src="images/EllebitPlaceholder.png" class="xpBlock">
 		</a>
 		<div class="smallDiv"></div>
 		<h2>Lexion <img src="images/LexionLogo.png" class="xpIcon"></h2>
@@ -57,16 +102,10 @@ Casey Nguyen
 		<div class="smallDiv"></div>
 		<h2>Lifelong <img src="images/StatsLogo.jpg" class="xpIcon"></h2>
 		<h3>Identifying those suffering from STD's and how to help.</h3>
-		<a href="https://www.lifelong.org/">
+		<a href="files/Lifelong Presentation.pptx">
 			<img src="images/LifelongPlaceholder.png" class="xpBlock">
 		</a>
-		<div class="bigDiv"></div>
-		<!--About Me-->
-		<h1 class="sectionHead">ABOUT ME</h1>
-		<img src="images/Self.jpg" class="main">
-		<p><i>"Hello there!" - Obi-Wan Kenobi</i></p>
-		<h3>Casey Nguyen is a Computer Science major from Seattle University.</h3>
-		<div class="bigDiv"></div>
+		<div class="bigDiv" id="contact"></div>		
 		<!--Contact Me-->
 		<h1 class="sectionHead">CONTACT ME</h1>
 		<div class="contact">
@@ -75,11 +114,13 @@ Casey Nguyen
 				<input type="text" id="name" name="name" placeholder="Name*"><br><br>
 				<input type="text" id="email" name="email" placeholder="Email*"><br><br>
 				<input type="text" id="subject" name="subject" placeholder="Subject*"><br><br>
-				<label for="message">Send me a message!</label><br>
-				<input type="text" id="message" name="message">
+				<p>Send me a message:</p>
+				<input type="text" id="message" name="message"><br><br>
+				<input type="submit">
 			</form>
 		</div>
+		<div class="blankSpace"></div>
 		<!--Footer-->
-		<footer>Copyright © 2022 - Casey Nguyen</footer>
+		<footer>Copyright © 2023 - Casey Nguyen</footer>
 	</body>
 </html>
